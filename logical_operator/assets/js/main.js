@@ -1,30 +1,33 @@
 let x = 10
 let y = 15
 let z = 20
+const a = true
+const b = false
+
 
 if(x > z && x > y){
-    console.log(true)
-} else {console.log(false)}
+    console.log(a)
+} else {console.log(b)}
 
 if(x != y){
-    console.log(true)
-} else {console.log(false)}
+    console.log(a)
+} else {console.log(b)}
 
 if(z < y || z > x){
-    console.log(true)
-} else {console.log(false)}
+    console.log(a)
+} else {console.log(b)}
 
 if(x == z || x != y){
-    console.log(true)
-} else {console.log(false)}
+    console.log(a)
+} else {console.log(b)}
 
 if(x >= 10 && y <= 10){
-    console.log(true)
-} else {console.log(false)}
+    console.log(a)
+} else {console.log(b)}
 
 if(x*z < 100 || x * y > 100){
-    console.log(true)
-} else {console.log(false)}
+    console.log(a)
+} else {console.log(b)}
 
 
 
